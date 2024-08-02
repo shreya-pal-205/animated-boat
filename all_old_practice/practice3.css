@@ -1,0 +1,32 @@
+img{
+    height: 200px;
+    width: 200px; 
+}
+.card{
+    border: 3px solid black;
+    height: 294px;
+    width: 200px;
+    box-shadow: 6px 6px 9px black;
+    margin: 15px;
+}
+.card:hover{
+    box-shadow: 0px 6px 18px black;
+}
+.desc{
+    margin: 18px;
+    font-size: 17px;
+}
+.main{
+    display: flex;
+}
+
+
+.card1{
+    margin: 15px;
+    transition: margin-top 1s ease-in 0.2s;
+}
+.card1:hover{
+    margin-top: 500px;
+}
+
+
